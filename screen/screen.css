@@ -1,0 +1,49 @@
+body{
+  background-color: hsl(0, 100%, 50%);
+  margin: 0;
+  overflow: hidden;
+}
+@font-face {
+  font-family: 'FerriteCoreDX-Black';
+  src: url('ttf/FerriteCoreDX-Black.ttf') format('truetype');
+}
+
+#titlePassword{
+  top: 10px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%,0);
+  text-align: center;
+  font-family: "FerriteCoreDX-Black";
+  font-size: 5.4em;
+  color: white;
+  /* display: flex; */
+}
+#titlePassword h1, h2{
+  margin: 0;
+}
+#centerWrap{
+    position: absolute;
+    display: flex;
+    width: 70vw;
+    left: 50%;
+    transform: translate(-50%,0);
+    align-content: center;
+}
+
+#centerImg{
+  margin: 4%;
+  width: 100%;
+
+}
+#centerImg img{
+  width: 100%;
+  object-fit: contain;
+    /* margin: 2%; */
+}
+#centerImg h3{
+  margin: 0;
+  text-align: center;
+  font-family: "FerriteCoreDX-Black";
+  background-color: rgb(0,255,0);
+}
