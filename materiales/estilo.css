@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'FerriteCoreDX-Black';
+  font-family: 'compagnon';
   src: url('https://centroculturalkappa.github.io/instrucciones/screen/ttf/compagnon-master/fonts/Compagnon-Bold.otf') format("opentype");
 }
 
@@ -12,7 +12,7 @@
 }
 
 h2{
-  font-family: "FerriteCoreDX-Black";
+  font-family: "compagnon";
   margin: 10px;
   padding: 20px 0;
 }
