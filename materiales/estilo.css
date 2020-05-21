@@ -26,6 +26,7 @@ a{
   text-decoration: none;
   display: inline-block;
   white-space: pre-wrap;
+  word-wrap: break-word;
 }
 h2 {
 	font-family: "compagnon";
