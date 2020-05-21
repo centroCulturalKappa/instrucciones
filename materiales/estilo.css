@@ -25,7 +25,7 @@ a{
   color: unset;
   text-decoration: none;
   display: inline-block;
-  white-space: pre-wrap;
+  white-space: break-spaces;
   word-wrap: break-word;
 }
 h2 {
