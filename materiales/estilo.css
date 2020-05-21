@@ -1,6 +1,14 @@
+body{
+  margin: 0;
+}
+
 @font-face {
   font-family: 'compagnon';
-  src: url('https://centroculturalkappa.github.io/instrucciones/screen/ttf/compagnon-master/fonts/Compagnon-Bold.otf') format("opentype");
+  src: url('https://centroculturalkappa.github.io/instrucciones/screen/ttf/compagnon-master/fonts/Compagnon-Medium.otf') format("opentype");
+}
+@font-face {
+  font-family: 'compagnon-light';
+  src: url('https://centroculturalkappa.github.io/instrucciones/screen/ttf/compagnon-master/fonts/Compagnon-Light.otf') format("opentype");
 }
 
 .itemLi{
@@ -8,11 +16,24 @@
 }
 
 .itemLi h3{
+  font-family: "compagnon-light";
   margin: 0;
 }
 
-h2{
-  font-family: "compagnon";
-  margin: 10px;
-  padding: 20px 0;
+a{
+  font-family: "compagnon-light";
+  color: unset;
+  text-decoration: none;
+}
+h2 {
+	font-family: "compagnon";
+	margin: 0;
+	padding: 20px 10px;
+	background-color: black;
+	color: white;
+}
+
+.itemLi:hover{
+  background-color: black;
+  color: white !important;
 }
