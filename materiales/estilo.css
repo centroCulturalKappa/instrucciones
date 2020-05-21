@@ -13,6 +13,8 @@ body{
 
 .itemLi{
   margin: 15px 10px;
+  /* white-space: pre-wrap; */
+  word-wrap: break-word;
 }
 
 .itemLi h3{
@@ -25,8 +27,11 @@ a{
   color: unset;
   text-decoration: none;
   display: inline-block;
-  white-space: break-spaces;
+  overflow-wrap: break-word;
   word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
 }
 h2 {
 	font-family: "compagnon";
