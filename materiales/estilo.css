@@ -24,7 +24,8 @@ a{
   font-family: "compagnon-light";
   color: unset;
   text-decoration: none;
-  display: inline-block;  
+  display: inline-block;
+  white-space: pre-wrap;
 }
 h2 {
 	font-family: "compagnon";
