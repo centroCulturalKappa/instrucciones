@@ -2,7 +2,7 @@ var aceptar = function(){
   var counter = 25;
   var toggler = 0;
   var colores = ["black","white"];
-  console.log(document.getElementsByClassName("midText")[0]);
+  document.getElementById("botonerino").style.display = "none";
   var instervalo = setInterval(function(){
       document.getElementsByClassName("midText")[0].style.backgroundColor = colores[toggler];
       document.getElementById("texto").style.lineHeight = counter+"px";
