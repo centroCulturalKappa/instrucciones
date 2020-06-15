@@ -52,17 +52,17 @@ var openFunction = function(){
 
     // var ventana = window.open("https://www.google.com/","_blank","height=300,width=300,top="+(valueSin+300)+",left="+(valueCos+600)+",scrollbars=no,resizable=no");
     // var ventana2 = window.open("https://www.google.com/","_blank","height=300,width=300,top="+(valueCos+300)+",left="+(valueSin+600)+",scrollbars=no,resizable=no");
-    // var ventana2 = window.open("https://www.google.com/","_blank","height=300,width=300,top="+randomPosY+",left="+randomPosX+",scrollbars=no,resizable=no");
+    var ventana2 = window.open("https://www.google.com/","_blank","height=300,width=300,top="+randomPosY+",left="+randomPosX+",scrollbars=no,resizable=no");
     // var ventana2 = window.open("https://www.google.com/","_blank","height=300,width=300,top="+(window.innerHeight/2-100)+",left="+(window.innerWidth/2-100)+",scrollbars=no,resizable=no");
 
     // ventana.document.write(`
     //   <body style="background-color:`+colores[counter%(colores.length)]+`"></body>
     //   <h1 style="position:absolute;left:50%;transform:translate(-50%,0);font-size:0.8em">`+palabras[counter%(palabras.length)]+`</h1>
     // `);
-    // ventana2.document.write(`
-    //   <body style="background-color:`+colores[counter%(colores.length)]+`"></body>
-    //   <h1 style="position:absolute;left:50%;transform:translate(-50%,0);font-size:1em">`+palabras[counter%(palabras.length)]+`</h1>
-    // `);
+    ventana2.document.write(`
+      <body style="background-color:`+colores[counter%(colores.length)]+`"></body>
+      <h1 style="position:absolute;left:50%;transform:translate(-50%,0);font-size:1em">`+palabras[counter%(palabras.length)]+`</h1>
+    `);
     // ventana3.document.write(`
     //   <body style="background-color:`+colores[counter%(colores.length)]+`"></body>
     //   <h1 style="position:absolute;left:50%;transform:translate(-50%,0);font-size:0.8em">`+palabras[counter%(palabras.length)]+`</h1>
@@ -78,7 +78,7 @@ var openFunction = function(){
 
     setTimeout(()=>{
       // ventana.close();
-      // ventana2.close();
+      ventana2.close();
       // ventana3.close();
     },800);
     if (counter>=100) {
